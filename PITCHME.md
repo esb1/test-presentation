@@ -1,10 +1,7 @@
 ## GIT
 
-Kurs om og med git
-
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
-
+<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
 
 ```sh
 some_user$ git commit -m "Update README"
@@ -18,8 +15,13 @@ git add  # Legge til endringer til Staging Area
 git commit  # Legge til endringer i commit historikken
 ```
 +++
-## bilde fra asset
-![Logo](assets/git-repo-components.svg)
+## noe annet
+Her er en liste
+<br>
+- punkt 1
+- punkt 2 |
+- punkt 3 |
+
 ---
 ## Typical workflow
 
@@ -44,7 +46,7 @@ git commit  # Legge til endringer i commit historikken
 ### Hvordan slippe å skrive inn passord hver gang?
 
 ```sh
-some_user -> any-branch$ ssh-add
+some_user$ ssh-add # hvor som helst i repoet ditt
 Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ```
 
