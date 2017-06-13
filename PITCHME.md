@@ -6,7 +6,12 @@ Dette er en test
 some_user$ git commit -m "Update README"
 ```
 ---
-
+## bilde eksternt
+![Logo](https://www.atlassian.com/dam/jcr:0c5257d5-ff01-4014-af12-faf2aec53cc3/01.svg)
+---
+## bilde fra asset
+![Logo](assets/git-repo-components.svg)
+---
 ## Typical workflow
 
 @[1]
@@ -26,6 +31,7 @@ some_user$ git commit -m "Update README"
 @[7]
 
 +++
+
 ### Hvordan slippe å skrive inn passord hver gang?
 
 ```sh
