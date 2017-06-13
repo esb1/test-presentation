@@ -32,7 +32,6 @@ Her er en liste
 ---
 ## Typical workflow
 
-@[1]
 ```sh
 ~master$ git pull
 ~master$ git branch -b new-feature
@@ -42,7 +41,8 @@ Her er en liste
 ~new_feature$ git commit -m "Add new component doing magig stuff"
 ~new_feature$ git push
 ```
-@[2]
+@[1]
+@[2](`-b` lager ny branch dersom den ikke finnes)
 @[3]
 @[4-5]
 @[6]
@@ -54,6 +54,7 @@ Her er en liste
 
 ```sh
 some_user$ ssh-add # hvor som helst i repoet ditt
+
 Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ```
 
