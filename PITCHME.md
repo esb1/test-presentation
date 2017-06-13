@@ -8,6 +8,11 @@ some_user$ git commit -m "Update README"
 +++
 ## bilde eksternt
 ![Logo](https://www.atlassian.com/dam/jcr:0c5257d5-ff01-4014-af12-faf2aec53cc3/01.svg)
+
+```
+git add  # Legge til endringer til Staging Area
+git commit  # Legge til endringer i commit historikken
+```
 +++
 ## bilde fra asset
 ![Logo](assets/git-repo-components.svg)
