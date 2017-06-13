@@ -5,10 +5,10 @@ Dette er en test
 ```sh
 some_user$ git commit -m "Update README"
 ```
----
++++
 ## bilde eksternt
 ![Logo](https://www.atlassian.com/dam/jcr:0c5257d5-ff01-4014-af12-faf2aec53cc3/01.svg)
----
++++
 ## bilde fra asset
 ![Logo](assets/git-repo-components.svg)
 ---
