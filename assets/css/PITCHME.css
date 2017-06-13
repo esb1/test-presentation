@@ -3,6 +3,10 @@ body {
     font-family: 'comic-sans';
 }
 
+.testklasse {
+    max-height: 200px;
+}
+
 .reveal section img {
     border: none;
     background: none;
