@@ -1,23 +1,15 @@
 ## GIT
 
----?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif&size=auto
-
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
-
-```sh
-some_user$ git commit -m "Update README"
-```
-+++
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
 <span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by <a href="https://github.com/jeejkang" target="_blank">jeejkang</a></span>
 
 +++
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- list syntax required (any unordered or ordered list supported)
+- this is a complete item
+- this is an incomplete item
 
 +++
 ## bilde eksternt
