@@ -9,6 +9,7 @@ some_user$ git commit -m "Update README"
 
 ## Typical workflow
 
+@[1]
 ```sh
 ~master$ git pull
 ~master$ git branch -b new-feature
@@ -18,7 +19,6 @@ some_user$ git commit -m "Update README"
 ~new_feature$ git commit -m "Add new component doing magig stuff"
 ~new_feature$ git push
 ```
-@[1]
 @[2]
 @[3]
 @[4-5]
