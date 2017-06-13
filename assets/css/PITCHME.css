@@ -2,3 +2,9 @@ body {
     color: 'yellow';
     font-family: 'comic-sans';
 }
+
+.reveal section img {
+    border: none;
+    background: none;
+    max-height: 100px;
+}
