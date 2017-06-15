@@ -83,21 +83,18 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ```
 
 ---
+### Vanlige kommandoer
 <table>
   <tr>
-    <th class="fragment">Firstname</th>
-    <th class="fragment">Lastname</th> 
-    <th class="fragment">Age</th>
+    <td class="fragment">```git add <folder> | <file>```</td>
+    <td class="fragment">```git commit -m <message>```</td>
   </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+  <tr>
+    <td class="fragment">```git add <folder> | <file>```</td>
+    <td class="fragment">```git commit -m <message>```</td>
   </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
+  <tr>
+    <td class="fragment">```git add <folder> | <file>```</td>
+    <td class="fragment">```git commit -m <message>```</td>
   </tr>
 </table>
-+++
