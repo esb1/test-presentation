@@ -8,6 +8,6 @@ body {
 }
 
 .reveal section img {
-    border: none;
     background: none;
+    shadow: none;
 }

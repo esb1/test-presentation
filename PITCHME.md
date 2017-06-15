@@ -1,7 +1,7 @@
 ## GIT
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
-+++
+---
 
 ### Hva er git
 -   Versjonskontroll
@@ -35,7 +35,7 @@ git reset --hard HEAD
 
 ---
 
-# Branches
+##### Branches
 ![branches](https://www.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg)
 
 > En branch kan sees på som sitt eget arbeidsområde i prosjektet.
