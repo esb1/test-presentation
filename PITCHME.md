@@ -8,10 +8,10 @@
 -   Samhandlingsverktøy |
 -   En god venn hvis du føkker opp |
 
-+++?image=assets/social_coding.png&size=auto
++++
 
 ### Samhandling
-
+![Image-Absolute](assets/social_coding.png)
 ```
 git pull
 git push
