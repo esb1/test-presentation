@@ -84,7 +84,7 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 
 ---
 ### Vanlige kommandoer
-<table>
+<table style="font-family: Helvetica Neue; font-size: 40; color: yellow">
   <tr>
     <td class="fragment">```git add <folder> | <file>```</td>
     <td class="fragment">```git commit -m <message>```</td>
