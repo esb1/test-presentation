@@ -8,7 +8,7 @@
 -   Samhandlingsverktøy |
 -   En god venn hvis du føkker opp |
 
-+++image=assets/social_coding.png
++++?image=assets/social_coding.png
 
 ### Samhandling
 
