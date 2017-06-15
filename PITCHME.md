@@ -8,12 +8,10 @@
 -   Samhandlingsverktøy |
 -   En god venn hvis du føkker opp |
 
-+++
++++image=assets/social_coding.png
 
 ### Samhandling
 
-*Bilde av repo med flere brukere*
-![social_coding](assets/social_coding.png)
 ```
 git pull
 git push
