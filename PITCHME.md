@@ -34,8 +34,15 @@ git commit -m "random stuff"
 git commit -m "random stuff"
 git commit -m "random stuff"
 ```
-
-@[1] @[2] @[3] @[4] @[5-9] @[10-14] @[15] @[16-50]
+@[0]
+@[1]
+@[2]
+@[3]
+@[4]
+@[5-9]
+@[10-14]
+@[15]
+@[16-50]
 ---
 
 ### Hva er git
