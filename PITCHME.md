@@ -3,14 +3,14 @@
 
 ---
 
-### Hva er git
--   Versjonskontroll
+##### Hva er git
+-   Versjonskontroll |
 -   Samhandlingsverktøy |
 -   En god venn hvis du føkker opp |
 
 +++
 
-### Samhandling
+##### Samhandling
 ![Image-Absolute](assets/social_coding.png)
 ```
 git pull
@@ -18,7 +18,7 @@ git push
 ```
 +++
 
-### Versjonskontroll
+##### Versjonskontroll
 ![Logo](https://www.atlassian.com/dam/jcr:0c5257d5-ff01-4014-af12-faf2aec53cc3/01.svg)
 
 ```
@@ -28,7 +28,7 @@ git commit  # Legge til endringer i commit historikken
 
 +++
 
-### Din gode venn
+##### Din gode venn
 ```
 git reset --hard HEAD
 ```
@@ -44,7 +44,7 @@ git reset --hard HEAD
 
 +++
 
-# Feature branches
+##### Feature branches
 -   Lag en kopi av master
 -   Implementer en feature |
 -   Test at det fungerer slik det skal |
@@ -56,7 +56,7 @@ Hvis det er flere på prosjektet:
 
 ---
 
-# Typical workflow
+##### Typical workflow
 
 ```sh
 ~master$ git pull
@@ -76,7 +76,7 @@ Hvis det er flere på prosjektet:
 
 +++
 
-### Hvordan slippe å skrive inn passord hver gang?
+##### Hvordan slippe å skrive inn passord hver gang?
 
 ```sh
 some_user$ ssh-add # hvor som helst i repoet ditt
