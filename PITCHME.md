@@ -2,6 +2,41 @@
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
 ---
+```
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+git commit -m "random stuff"
+```
+
+@[1]@[2]@[3]@[4]@[5-9]@[10-14]@[15]@[16-50]
+---
 
 ### Hva er git
 -   Versjonskontroll |
