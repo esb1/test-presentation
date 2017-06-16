@@ -3,7 +3,20 @@
 
 ---
 ```
-git commit -m "random stuff"
+git pull [origin/<branch-name>]
+git pull origin/master
+git push [origin/<branch-name>]
+git push origin/super-feature
+
+git add <folder> || <file>
+git add .
+git commit -m <message>
+git commit -m "Change backround image"
+
+git diff [<filename> || folder]
+git diff --cached
+git status
+
 git commit -m "random stuff"
 git commit -m "random stuff"
 git commit -m "random stuff"
@@ -35,8 +48,8 @@ git commit -m "random stuff"3
 git commit -m "random stuff"2
 ```
 @[0]
-@[1]
-@[2]
+@[1](Merger remote repo med ditt lokale)
+@[2](Pusher dine endringer til remote repository)
 @[3]
 @[4]
 @[5-9]
