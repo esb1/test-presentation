@@ -1,45 +1,14 @@
 ## GIT
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
----
-```
-git pull [origin/<branch-name>]
-git pull origin/master
-git push [origin/<branch-name>]
-git push origin/super-feature
+---?code=src/common-commands.sh
 
-git branch
-git branch <branch-name>
-git checkout <branch-name>
-
-git add <folder> || <file>
-git add .
-git commit -m <message>
-git commit -m "Change backround image"
-
-git diff [<file> || folder]
-git diff --cached
-git status
-
-git stash
-git stash pop
-
-git reset <commit># undo commits, but keep changes in local workspace
-git reset HEAD
-git reset HEAD^2
-git reset HEAD --hard #Sletter endringene dine også
-git checkout -- <file> # undo all changes to a file (revert to last commited version)
-```
 @[1-2](Oppdaterer ditt lokale repo til å matche remote)
 @[3-4](Dytter dine endringer til remote)
-@[6-7](Liste over brancher lokalt)
+@[6](Liste over brancher lokalt)
 @[7](Lag ny branch)
-@[8](Bytt til valgte branch (tar med endringer som ikke er commited))
-@[4]
-@[5-9]
-@[10-14]
-@[15]
-@[16-50]
+@[8](Bytt til valgte branch (tar med endringer som ikke er commited) )
+
 ---
 
 ### Hva er git
