@@ -8,49 +8,33 @@ git pull origin/master
 git push [origin/<branch-name>]
 git push origin/super-feature
 
+git branch
+git branch <branch-name>
+git checkout <branch-name>
+
 git add <folder> || <file>
 git add .
 git commit -m <message>
 git commit -m "Change backround image"
 
-git diff [<filename> || folder]
+git diff [<file> || folder]
 git diff --cached
 git status
 
-git commit -m "random stuff"
-git commit -m "random stuff"
-git commit -m "random stuff"
-git commit -m "random stuff"
-git commit -m "random stuff"
-git commit -m "random stuff"sdfg
-git commit -m "random stuff"
-git commit -m "random stuff"asdf
-git commit -m "random stuff"
-git commit -m "random stuff"sd
-git commit -m "random stuff"v
-git commit -m "random stuff"h
-git commit -m "random stuff"
-git commit -m "random stuff"r
-git commit -m "random stuff"t
-git commit -m "random stuff"
-git commit -m "random stuff"mmn
-git commit -m "random stuff"
-git commit -m "random stuff"yuu
-git commit -m "random stuff"7
-git commit -m "random stuff"7
-git commit -m "random stuff"9
-git commit -m "random stuff"9
-git commit -m "random stuff"0
-git commit -m "random stuff"0
-git commit -m "random stuff"
-git commit -m "random stuff"543
-git commit -m "random stuff"3
-git commit -m "random stuff"2
+git stash
+git stash pop
+
+git reset <commit># undo commits, but keep changes in local workspace
+git reset HEAD
+git reset HEAD^2
+git reset HEAD --hard #Sletter endringene dine også
+git checkout -- <file> # undo all changes to a file (revert to last commited version)
 ```
-@[0]
-@[1](Merger remote repo med ditt lokale)
-@[2](Pusher dine endringer til remote repository)
-@[3]
+@[1-2](Oppdaterer ditt lokale repo til å matche remote)
+@[3-4](Dytter dine endringer til remote)
+@[6-7](Liste over brancher lokalt)
+@[7](Lag ny branch)
+@[8](Bytt til valgte branch (tar med endringer som ikke er commited))
 @[4]
 @[5-9]
 @[10-14]
