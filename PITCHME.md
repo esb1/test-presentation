@@ -52,8 +52,8 @@ git reset --hard HEAD
 ![merge](assets/merge_branch.png)
 
 +++
-Hvis det er flere på prosjektet:
-_Merge endringer på master inn på din branch før du tester_
+Hvis det er flere på prosjektet:<br>
+_Merge endringer på master inn på din branch før du tester_<br>
 _Pull request før man merger til master_
 
 
@@ -116,7 +116,7 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 La teammedlemmer reviewe din kode før du _merger_ den inn i prosjektet
 
 +++
-![Logo](image=assets/Merge_request.png)
+![Logo](assets/Merge_request.png)
 
 +++
 ![Logo](assets/comments.png)
