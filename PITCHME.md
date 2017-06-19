@@ -50,6 +50,8 @@ git reset --hard HEAD
 +++
 
 ![merge](assets/merge_branch.png)
+
++++
 Hvis det er flere på prosjektet:
 _Merge endringer på master inn på din branch før du tester_
 _Pull request før man merger til master_
