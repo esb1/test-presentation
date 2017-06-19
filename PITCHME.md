@@ -4,8 +4,8 @@
 ---
 
 ### Hva er git
--   Versjonskontroll |
 -   Samhandlingsverktøy |
+-   Versjonskontroll |
 
 +++
 
@@ -27,7 +27,7 @@ git commit  # Legge til endringer i commit historikken
 
 +++
 
-### Din gode venn hvis ting går galt
+### Din gode venn hvis ting går helt galt
 ```
 git reset --hard HEAD
 ```
@@ -49,7 +49,7 @@ git reset --hard HEAD
 
 +++
 
-![merge](https://www.atlassian.com/dam/jcr:4cd777cc-24d1-4502-b8a9-8646b15c2d6b/08.svg)
+![merge](assets/merge_branch.png)
 Hvis det er flere på prosjektet:
 _Merge endringer på master inn på din branch før du tester_
 _Pull request før man merger til master_
