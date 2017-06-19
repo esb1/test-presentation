@@ -1,4 +1,5 @@
 ## GIT
+#### En introduksjon
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
 ---
@@ -56,9 +57,11 @@ Hvis det er flere på prosjektet:<br>
 _Merge endringer fra master til din branch før du tester at koden din virker_<br>
 _Pull request før man merger til master_
 
-
----?code=src/common-commands.sh
+---
 ### De _vanligste_ kommandoene
+Listen er langt i fra utfyllende, kun tenkt som et sted å starte.
+
++++?code=src/common-commands.sh
 @[1-2](Oppdaterer ditt lokale repo til å matche remote)
 @[3-4](Dytter dine endringer til remote)
 @[6](Liste over brancher lokalt)
