@@ -1,14 +1,6 @@
 ## GIT
 ![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
 
----?code=src/common-commands.sh
-
-@[1-2](Oppdaterer ditt lokale repo til å matche remote)
-@[3-4](Dytter dine endringer til remote)
-@[6](Liste over brancher lokalt)
-@[7](Lag ny branch)
-@[8](Bytt til valgte branch (tar med endringer som ikke er commited) )
-
 ---
 
 ### Hva er git
@@ -60,7 +52,31 @@ Hvis det er flere på prosjektet:
 _Merge endringer på master inn på din branch før du tester_
 _Pull request før man merger til master_
 
----
+
+---?code=src/common-commands.sh
+
+@[1-2](Oppdaterer ditt lokale repo til å matche remote)
+@[3-4](Dytter dine endringer til remote)
+@[5]()
+@[6](Liste over brancher lokalt)
+@[7](Lag ny branch)
+@[8](Bytt til valgte branch (tar med endringer som ikke er commited) )
+@[10-11](Legg endringer til _staging area_)
+@[12-13](Legg til endringer i historikken)
+@[15](Working directory vs historikk (før `git add`) )
+@[16](Staging area vs historikk (etter `git add`) )
+@[17](Status på filer (endringer, nye filer osv.) )
+@[19](_Gjem_ alle endringer)
+@[20](Hent de siste endringene som ble _stashet_)
+@[22](Kopier repo lokalt, og la remote være original-repoet)
+@[23](Kopier repo lokalt, og la remote være en kopi av originalen)
+@[25-27](Gjør lokal historikk lik som `<commit>`, men bevar endringer<br>_Start på nytt_)
+@[28](Gjør lokal historikk lik som `<commit>` og slett endringer)
+@[29-30](Slett endringer gjort etter `<commit>`)
+@[32-33](Se historikken)
+@[34](Se info om `<commit>`)
+
++++
 
 ### Typical workflow
 
@@ -91,18 +107,12 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ```
 
 ---
-### Vanlige kommandoer
-<table style="font-family: Helvetica Neue; font-size: 40; color: yellow">
-  <tr>
-    <td class="fragment">```git add <folder> | <file>```</td>
-    <td class="fragment">```git commit -m <message>```</td>
-  </tr>
-  <tr>
-    <td class="fragment">```git add <folder> | <file>```</td>
-    <td class="fragment">```git commit -m <message>```</td>
-  </tr>
-  <tr>
-    <td class="fragment">```git add <folder> | <file>```</td>
-    <td class="fragment">```git commit -m <message>```</td>
-  </tr>
-</table>
+### Pull requests
+### Merge requests
+La teammedlemmer reviewe din kode før du _merger_ den inn i prosjektet
+
++++?image=assets/Merge_request.png
+
++++
+### Tilbakemeldinger fra teamet/prosjekteier
+![Logo](assets/comments.png)

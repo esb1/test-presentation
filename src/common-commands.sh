@@ -10,7 +10,7 @@ git checkout <branch-name>
 git add <folder> || <file>
 git add .
 git commit -m <message>
-git commit -m "Change backround image"
+git commit -m "Change background image"
 
 git diff [<file> || folder]
 git diff --cached
