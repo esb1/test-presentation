@@ -76,12 +76,12 @@ Listen er langt i fra utfyllende, kun tenkt som et sted å starte.
 @[20](Hent de siste endringene som ble _stashet_)
 @[22](Kopier repo lokalt, og la remote være original-repoet)
 @[23](Kopier repo lokalt, og la remote være en kopi av originalen)
-@[25-27](Gjør lokal historikk lik som `<commit>`, men bevar endringer<br>_Start på nytt_)
+@[25-27](Gjør lokal historikk lik som `<commit>`, men bevar endringer)
 @[28](Gjør lokal historikk lik som `<commit>` og slett endringer)
 @[29-30](Slett endringer gjort etter `<commit>`)
 @[32-33](Se historikken)
 @[34](Se info om `<commit>`)
-@[36-37](slå sammen to brancher)
+@[36-37](Slå sammen to brancher)
 
 +++
 
