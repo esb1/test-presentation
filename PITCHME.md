@@ -62,11 +62,11 @@ _Pull request før man merger til master_
 @[6](Liste over brancher lokalt)
 @[7](Lag ny branch)
 @[8](Bytt til valgte branch. _Tar med endringer som ikke er commited_)
-@[10-11](Legg endringer til _staging area_)
-@[12-13](Legg til endringer i historikken)
+@[10-11](Legg endringer til i _staging area_)
+@[12-13](Legg endringer til i historikken)
 @[15](Working directory vs historikk. _Før `git add`_)
 @[16](Staging area vs historikk _etter `git add`_)
-@[17](Status på filer. _Endringer, nye filer osv._)
+@[17](Working direcory status på filnivå. _Hvilke filer som har endringer, nye filer osv._)
 @[19](_Gjem_ alle endringer)
 @[20](Hent de siste endringene som ble _stashet_)
 @[22](Kopier repo lokalt, og la remote være original-repoet)
@@ -113,8 +113,8 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ### Merge requests
 La teammedlemmer reviewe din kode før du _merger_ den inn i prosjektet
 
-+++?image=assets/Merge_request.png
++++
+![Logo](image=assets/Merge_request.png)
 
 +++
-### Tilbakemeldinger fra teamet/prosjekteier
 ![Logo](assets/comments.png)
