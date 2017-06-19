@@ -6,7 +6,6 @@
 ### Hva er git
 -   Versjonskontroll |
 -   Samhandlingsverktøy |
--   En god venn hvis du føkker opp |
 
 +++
 
@@ -28,7 +27,7 @@ git commit  # Legge til endringer i commit historikken
 
 +++
 
-### Din gode venn
+### Din gode venn hvis ting går galt
 ```
 git reset --hard HEAD
 ```
@@ -38,15 +37,18 @@ git reset --hard HEAD
 ### Branches
 ![branches](https://www.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg)
 
-> Kopier prosjektets _state_ og jobb uforstyrret
+> Kopier prosjektets _tilstand_ og jobb uforstyrret videre
 
 +++
 
 ### Feature branches
--   Lag en kopi av master
+-   Lag en kopi av master |
 -   Implementer en feature |
 -   Test at det fungerer slik det skal |
 -   Merge din branch inn i master |
+
++++
+
 ![merge](https://www.atlassian.com/dam/jcr:4cd777cc-24d1-4502-b8a9-8646b15c2d6b/08.svg)
 Hvis det er flere på prosjektet:
 _Merge endringer på master inn på din branch før du tester_
@@ -63,9 +65,9 @@ _Pull request før man merger til master_
 @[8](Bytt til valgte branch (tar med endringer som ikke er commited) )
 @[10-11](Legg endringer til _staging area_)
 @[12-13](Legg til endringer i historikken)
-@[15](Working directory vs historikk (før `git add`) )
-@[16](Staging area vs historikk (etter `git add`) )
-@[17](Status på filer (endringer, nye filer osv.) )
+@[15](Working directory vs historikk (før `git add`\))
+@[16](Staging area vs historikk (etter `git add`\))
+@[17](Status på filer (endringer, nye filer osv.\))
 @[19](_Gjem_ alle endringer)
 @[20](Hent de siste endringene som ble _stashet_)
 @[22](Kopier repo lokalt, og la remote være original-repoet)
@@ -75,6 +77,7 @@ _Pull request før man merger til master_
 @[29-30](Slett endringer gjort etter `<commit>`)
 @[32-33](Se historikken)
 @[34](Se info om `<commit>`)
+@[36-37](slå sammen to brancher)
 
 +++
 
