@@ -53,12 +53,12 @@ git reset --hard HEAD
 
 +++
 Hvis det er flere på prosjektet:<br>
-_Merge endringer på master inn på din branch før du tester_<br>
+_Merge endringer fra master til din branch før du tester at koden din virker_<br>
 _Pull request før man merger til master_
 
 
 ---?code=src/common-commands.sh
-
+### De _vanligste_ kommandoene
 @[1-2](Oppdaterer ditt lokale repo til å matche remote)
 @[3-4](Dytter dine endringer til remote)
 @[6](Liste over brancher lokalt)
@@ -66,8 +66,8 @@ _Pull request før man merger til master_
 @[8](Bytt til valgte branch. _Tar med endringer som ikke er commited_)
 @[10-11](Legg endringer til i _staging area_)
 @[12-13](Legg endringer til i historikken)
-@[15](Working directory vs historikk. _Før `git add`_)
-@[16](Staging area vs historikk _etter `git add`_)
+@[15](Working directory vs historikk. _Før `git add`._)
+@[16](Staging area vs historikk. _Etter `git add`._)
 @[17](Working direcory status på filnivå. _Hvilke filer som har endringer, nye filer osv._)
 @[19](_Gjem_ alle endringer)
 @[20](Hent de siste endringene som ble _stashet_)
@@ -113,10 +113,14 @@ Enter passphrase for /Users/some_user/.ssh/id_rsa: *******
 ---
 ### Pull requests
 ### Merge requests
-La teammedlemmer reviewe din kode før du _merger_ den inn i prosjektet
+La team-medlemmer reviewe din kode før du _merger_ den inn i prosjektet
 
 +++
 ![Logo](assets/Merge_request.png)
 
 +++
 ![Logo](assets/comments.png)
+
+---
+
+## Demo/praksis
